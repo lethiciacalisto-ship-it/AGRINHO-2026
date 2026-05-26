@@ -1,1 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agro forte, futuro sustentável</title>
 
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    padding:20px;
+    position:sticky;
+    top:0;
+}
+
+header h1{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#c8e6c9;
+}
+
+.banner{
+    background:url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200') center/cover;
+    height:400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.banner-content{
+    background:rgba(0,0,0,0.6);
+    padding:30px;
+    border-radius:10px;
+}
+
+.banner h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.banner p{
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#4caf50;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#2e7d32;
+}
+
+section{
+    padding:60px 20px;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#2e7d32;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.quiz{
+    background:#e8f5e9;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.quiz button{
+    padding:10px 20px;
+    border:none;
+    background:#2e7d32;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input, textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+form button{
+    background:#2e7d32;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+@media(max-width:768px){
+
+    .banner h2{
+        font-size:28px;
+    }
+
+    .banner p{
+        font-size:16px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Agro forte, futuro sustentável</h1>
+
+<nav>
+<a href="#producao">Produção</a>
+<a href="#sustentabilidade">Sustentabilidade</a>
+<a href="#desafios">Desafios</a>
+<a href="#solucoes">Soluções</a>
+<a href="#contato">Contato</a>
+</nav>
+
+</header>
+
+<section class="banner">
+
+<div class="banner-content">
+<h2>Produzir hoje preservando o amanhã</h2>
+
+<p>
+Equilíbrio entre produção agrícola, tecnologia e preservação ambiental.
+</p>
+
+<a href="#producao" class="btn">Saiba mais</a>
+</div>
+
+</section>
+
+<section id="producao">
+
+<div class="container">
+
+<h2>Produção Agrícola</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1000">
+<h3>Importância Econômica</h3>
+<p>
+O agronegócio movimenta a economia brasileira e gera milhões de empregos.
+</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1000">
+<h3>Tecnologia no Campo</h3>
+<p>
+Máquinas modernas e agricultura de precisão aumentam a produtividade.
+</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1000">
+<h3>Exportações</h3>
+<p>
+O Brasil é um dos maiores exportadores agrícolas do mundo.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="sustentabilidade">
+
+<div class="container">
+
+<h2>Sustentabilidade</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?q=80&w=1000">
+<h3>Irrigação Inteligente</h3>
+<p>
+Economia de água através de sistemas automatizados.
+</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?q=80&w=1000">
+<h3>Energia Solar</h3>
+<p>
+Uso de energia limpa e renovável no campo.
+</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1000">
+<h3>Conservação do Solo</h3>
+<p>
+Práticas agrícolas sustentáveis ajudam a preservar o solo.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="desafios">
+
+<div class="container">
+
+<h2>Desafios Ambientais</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Desmatamento</h3>
+<p>
+A expansão agrícola sem controle pode destruir florestas.
+</p>
+</div>
+
+<div class="card">
+<h3>Uso da Água</h3>
+<p>
+O desperdício de água é um dos maiores desafios da agricultura.
+</p>
+</div>
+
+<div class="card">
+<h3>Emissão de Carbono</h3>
+<p>
+Queimadas e poluição aumentam os gases do efeito estufa.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="solucoes">
+
+<div class="container">
+
+<h2>Soluções e Futuro</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Drones Agrícolas</h3>
+<p>
+Monitoramento inteligente das plantações.
+</p>
+</div>
+
+<div class="card">
+<h3>Agricultura Regenerativa</h3>
+<p>
+Recuperação do solo e preservação ambiental.
+</p>
+</div>
+
+<div class="card">
+<h3>Energia Renovável</h3>
+<p>
+Uso de fontes limpas para reduzir impactos ambientais.
+</p>
+</div>
+
+</div>
+
+<br><br>
+
+<div class="quiz">
+
+<h3>Quiz Sustentável</h3>
+
+<p>
+Você acredita que tecnologia pode ajudar o meio ambiente?
+</p>
+
+<button onclick="mostrarResposta()">
+Responder
+</button>
+
+<p id="resultado"></p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contato">
+
+<div class="container">
+
+<h2>Contato e Conscientização</h2>
+
+<form>
+
+<input type="text" placeholder="Seu nome" required>
+
+<input type="email" placeholder="Seu e-mail" required>
+
+<textarea rows="5" placeholder="Digite sua mensagem"></textarea>
+
+<button type="submit">
+Enviar
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 - Agro forte, futuro sustentável
+</p>
+
+</footer>
+
+<script>
+
+function mostrarResposta(){
+
+document.getElementById("resultado").innerHTML =
+"Tecnologia e sustentabilidade podem trabalhar juntas para preservar o planeta.";
+
+}
+
+</script>
+
+</body>
+</html>
